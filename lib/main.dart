@@ -9,6 +9,11 @@ void main() {
           title: Text('I Am Rich'),
           backgroundColor: Colors.blueGrey[900],
         ),
+        body: Center(
+          child: Image(
+            image: AssetImage('images/yoda.jpg'),
+          ),
+        ),
       ),
     ),
   );
